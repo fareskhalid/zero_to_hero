@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Home Page */
+.title {
+    position: relative
+}
+.title::after{
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 15%;
+    height: 0px;
+    width: 70%;
+    border-top: 4px solid #444444a1;
+}
+/* Features */
+.features .feat {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+.features .feat svg {
+    width: 100px;
+    height: 100px;
+    font-size: 70px;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 50%;
+    padding: 20px;
+}
+.features .feat .feat-title {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+/* Join Us */
+.join svg {
+    font-size: 70px;
+}
